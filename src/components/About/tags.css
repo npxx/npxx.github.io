@@ -1,0 +1,190 @@
+:root {
+  --red: #ff3860;
+  --red-dark: #ff1443;
+  --red-light: #ff5c7c;
+  --blue: #498afb;
+  --blue-dark: #2674fa;
+  --blue-light: #6ca0fc;
+  --orange: #fa8142;
+  --orange-dark: #f96a1f;
+  --orange-light: #fb9865;
+  --green: #09c372;
+  --green-dark: #07a15e;
+  --green-light: #0be586;
+  --purple: #9166cc;
+  --purple-dark: #7d4bc3;
+  --purple-light: #a481d5;
+  --yellow: #ffdd57;
+  --yellow-dark: #ffd633;
+  --yellow-light: #ffe47a;
+  --pink: #ff4088;
+  --pink-dark: #ff1c72;
+  --pink-light: #ff649e;
+  --gray0: #f8f8f8;
+  --gray1: #dbe1e8;
+  --gray2: #b2becd;
+  --gray3: #6c7983;
+  --gray4: #454e56;
+  --gray5: #2a2e35;
+  --gray6: #12181b;
+  --nav-width: 4em;
+  --font-body: 'sofia-pro', sans-serif;
+  --font-head: 'sofia-pro', sans-serif;
+  --font-code: 'attribute-mono', monospace;
+  --font-size: 20px;
+  --max-width-bp: 768px;
+  --orange-pink: linear-gradient(
+    to bottom right,
+    var(--orange-light),
+    var(--orange-dark) 85%
+  );
+  --green-grad: linear-gradient(
+    to bottom right,
+    var(--green-light),
+    var(--green-dark) 85%
+  );
+  --background: var(--gray6);
+  --text-color: var(--gray2);
+  --h-color: #fff;
+  --nav-shadow: 4px 0 10px -3px #010101;
+  --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.38);
+  --toc-shadow: rgba(0, 0, 0, 0.7) 0px 10px 20px 0px;
+  --nav-bg: var(--gray5);
+  --tag-bg: var(--gray4);
+  --code-bg: #22262f;
+  --card-bg: var(--gray5);
+  --overlay-bg: rgba(0, 0, 0, 0.9);
+  --h-border: 2px dashed var(--nav-bg);
+  --nav-border: 2px dashed var(--text-color);
+  --card-radius: 0.25em;
+  transition: all 0.3s ease;
+}
+
+.tag {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0.2em 0.5em 0.3em;
+  border-radius: 2px;
+  background: var(--tag-bg);
+  color: var(--text-color);
+  font-weight: 600;
+  margin: 0.25em 0.1em;
+  font-family: 'Cascadia';
+}
+
+h1.tag {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.tag-sm {
+  font-size: 0.7em;
+  display: inline-block;
+  letter-spacing: 0.15ch;
+  font-weight: 400;
+}
+
+.tag-lg {
+  font-size: 1.2em;
+  border-radius: 4px;
+}
+
+.tag-bg {
+  background: var(--background);
+}
+
+.tag-green,
+.tag-pro {
+  background: var(--green);
+  color: #fff;
+}
+
+.tag-purple {
+  background: var(--purple);
+  color: #fff;
+}
+
+.tag-contrast {
+  background: var(--text-color);
+  color: var(--background);
+}
+
+.tag-javascript {
+  background: #f0db4f;
+  color: #000;
+}
+
+.tag-typescript {
+  background: #2775c3;
+  color: #fff;
+}
+
+.tag-angular {
+  background: #dc0530;
+  color: #fff;
+}
+
+.tag-php {
+  background: #4f5b93;
+  color: #8892be;
+}
+.tag-mysql {
+  background: #00758f;
+  color: #f29111;
+}
+.tag-ps {
+  background: #3c327b;
+  color: #8bc3fc;
+}
+.tag-ai {
+  background: #823c02;
+  color: #fc9c4b;
+}
+.tag-linux {
+  background: #333333;
+  color: #1793d1;
+}
+.tag-opencv {
+  background: #118dff;
+  color: #8bda67;
+}
+.tag-c {
+  background: #03599c;
+  color: #ffffff;
+}
+.tag-ard {
+  background: #4fccf3;
+  color: #ffffff;
+}
+.tag-cs {
+  background: #67217a;
+  color: #ffffff;
+}
+.tag-flask {
+  background: #2596be;
+  color: #ffffff;
+}
+.tag-sqlite {
+  background: #0b3657;
+  color: #ffffff;
+}
+.tag-py {
+  background: #306998;
+  color: #ffe873;
+}
+.tag-selenium {
+  background: #43b02a;
+  color: #ffffff;
+}
+.tag-discord {
+  background: #5865f2;
+  color: #ffffff;
+}
+.tag-cs {
+  background: #67217a;
+  color: #ffffff;
+}
+.tag-brlcad {
+  background: #464b4b;
+  color: #c41f57;
+}
